@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p-3</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="srcipt.js"></script>
+</head>
+<body>
+    <div class="d1">
+        <nav>
+            <h3>LOGO</h3>
+            <ul class="a1">
+                <li>Home</li>
+                <li>About</li>
+                <li>Projects</li>
+            </ul>
+            <form>
+                <h1><input type="text" placeholder="Search"></h1><br>
+                <button class="b1">Search</button>
+            </form>
+        </nav>
+        <script>
+            //User output board//
+            function validateform(){
+                var name=document.myform.name.value;
+                var e-mail=document.myform.e-mail.value;
+                var subject=document.myform.subject.value;
+
+
+                if(name==null||name==""){
+                alert("Name can't be blank");
+                return false;
+            }else if(not correct e-mail){
+                alert("e-mail is invalid");
+                return false;
+            }
+        }
+        //user input board//
+        function validateform(){
+                var name=document.myform.name.value;
+                var e-mail=document.myform.e-mail.value;
+                var subject=document.myform.subject.value;
+
+
+                if(name==null||name==""){
+                alert("Name can't be blank");
+                return false;
+            }else if(not correct e-mail){
+                alert("e-mail is invalid");
+                return false;
+            }
+        }
+        </script>
+        
+       <div class="d2">
+        <div class="d3">
+           <h2>User Output Board</h2>
+           <form name="myform" method="post">
+            <input type="text" name="name" placeholder="FSJS2.0" class="c1">
+            <input type="text" name="e-mail" placeholder="fsjs@ineuron.ai" class="c2">
+           <input type="text" name="subject" placeholder="Hello World" class="c3">
+           <button class="b2">Reset</button>           
+        </form>
+        </div>
+        <div class="d4">
+           <h2>User Input Board</h2>
+           <form name="myform" method="post">
+            <input type="text" name="name" placeholder="FSJS2.0" class="c1">
+            <input type="text" name="e-mail" placeholder="fsjs@ineuron.ai" class="c2">
+           <input type="text" name="subject" placeholder="Hello World" class="c3">
+           <button class="b2">Submit</button>           
+        </div>
+       </div>
+    </div>
+</body>
+</html>

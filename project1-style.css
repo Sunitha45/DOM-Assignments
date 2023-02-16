@@ -1,0 +1,92 @@
+nav{
+    height:11vh;
+    padding:1px;
+}
+nav ul{
+    display:flex;
+    align-items:center;
+}
+nav ul li{
+    list-style:none;
+    margin-right:2%;
+    font-weight:500;
+}
+h1{
+    float:right;
+    margin-top:-43px;
+    margin-right:190px;
+}
+.b1{
+    float:right;
+    margin-top:-53px;
+    margin-right:100px;
+    background-color:darkgreen;
+    color:white;
+    border:none;
+}
+.d1{
+    height:81vh;
+    background-color:lavender;
+    margin-top:60px;
+}
+h3{
+float:left;
+margin-left:75px;
+}
+nav ul li:first-child{
+    margin-left:220px;
+}
+h1 span{
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+}
+.a2{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.a3{
+    padding-top:90px;
+}
+.a3 h2{
+    padding-left:80px;
+    margin-bottom:-7px;
+}
+h2 span{
+    font-size:31px;
+    font-weight:bolder;
+    color:darkcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:beige;
+}
+.a3 h3{
+    width:400px;
+}
+.a3 h3 span{
+    font-weight:bolder;
+    color:darkcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px;
+}
+.a4 img{
+    padding-left:355px;
+    padding-top:14px;
+}
+.a4 .b2{
+   margin-top:22px;
+   margin-left:420px;
+   background-color:darkcyan;
+   color:white;
+   border:none;
+   font-size:13px;
+}
+.a5 h4{
+    padding-left:200px;
+    padding-top:80px;
+    font-size:14px;
+    font-weight:lighter;
+}
+.d2{
+    height:8vh;
+    background-color:maroon;
+}

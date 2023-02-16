@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dom Assignment 5</title>
+    <script>
+      function validateForm(){
+          let x=document.forms["myForm"]["fname"].value;
+          if(x==""){
+            alert("aaa")
+              return false;
+          }
+      } 
+    </script>
+  </head>
+  <body>
+    <div class="d1">
+        <div class="main__form">
+          <span class="main__languages-text"
+            >Assignment - 2: Use JavaScript to write something in the input box
+            and submit the form. This should refresh the page and the languages
+            in the left card should come back.</span
+          >
+          <form name="myForm" onsubmit="return validateForm()">
+            <input name="fname"    type="text"   placeholder="iNeuron">
+            <input type="submit" value="Submit" disabled>
+          </form>
+          <p id="demo"></p>
+         
+        </div>
+        <div class="d2">
+          <h1>After writing the text submit the form</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

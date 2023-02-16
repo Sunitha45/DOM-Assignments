@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p-2 task1</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    .d4{
+        height:3vh;
+    width:670px;
+    border:solid 1px white;
+    background-color:lavender;
+    margin-left:30px;
+    margin-top:8px;
+    padding-left:16px;
+    padding-bottom:6px;
+    color:black;
+    font-weight:bolder;
+    }
+    .d5{
+     height:3vh;
+    width:670px;
+    border:solid 1px white;
+    background-color:lavender;
+    margin-left:30px;
+    margin-top:8px;
+    padding-left:16px;
+    padding-bottom:6px;
+    color:black;
+    font-weight:bolder;
+    }
+    .a2{
+        font-weight:lighter;
+        width:670px;
+        margin-left:30px;
+    }
+    
+    </style>
+ </head>
+<body>
+    <div class="d1">
+    <nav>
+        <h3>LOGO</h3>
+        <ul class="a1">
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+        </ul>
+        <form>
+            <h1><input type="text" placeholder="Search"></h1><br>
+            <button class="b1">Search</button>
+        </form>
+    </nav>
+    <div class="d2">
+        <div class="d3" id="e3">
+            <p>Experience(Employee)</p>
+        </div>
+        <p id="e4" class="d4"></p>
+        <p id="e5" class="d5"><p>
+        <h4 id="a1" class="a2">I have been awarded with best influencer of 2021. I am also one of the top contributor of the open source projects over the Github, which can be seen in my Github profile</h4>
+        <p id="e6" class="d6"></p>
+        <div class="d8">
+        <h4>Some of my popular hobbies are travelling and exploring the new technologies from all over the world.</h4>
+         </div>
+    </div>               
+   </div>
+   <script>
+    const para=document.createElement("p");
+    const node=document.createTextNode("Experience(Freelancer)");
+    para.appendChild(node);
+    const element=document.getElementById("e3");
+    element.appendChild(para);
+    </script>
+     <script>
+    const para1=document.createElement("p")
+    const node1=document.createTextNode("Achievement");
+    para1.appendChild(node1);
+    const element1=document.getElementById("e3");
+    element1.appendChild(para1);
+</script>
+    <script>
+    var para2=document.createElement("p");
+    const node2=document.createTextNode("Hobbies");
+    para2.appendChild(node2);
+    const element2=document.getElementById("a1");
+    element2.appendChild(para2);
+</script>
+</body>
+</html>
